@@ -1,0 +1,12 @@
+﻿@model Item
+
+<h1>Edit Product</h1>
+
+<form method="post" action="/shop/editproduct">
+    Id: @Model.id<br />
+    <input type="hidden" name="id" value="@Model.id" />
+    Name: <input type="text" name="Name" value="@Model.Name" /><br />
+    Price: <input type="text" name="Price" value="@Model.Price" /><br />
+    <input type="submit" value="Save" class="btn btn-primary" />
+    <a href="/" class="btn btn-danger">Cancel</a>
+</form>

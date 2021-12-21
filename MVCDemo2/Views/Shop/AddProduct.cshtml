@@ -1,0 +1,35 @@
+﻿@model Item
+@{
+    ViewData["Title"] = "AddProduct";
+}
+
+<!-- We aren't using this page anymore  -->
+
+<h1>Your item has been added</h1>
+
+Item ID: @Model.id<br />
+Item Name: @Model.Name<br />
+Item Price: @Model.Price<br />
+
+<h2>All Items</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Item current in Item.Items)
+        {
+            <tr>
+                <td>@current.id</td>
+                <td>@current.Name</td>
+                <td>@current.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
