@@ -6,7 +6,10 @@ namespace FillerConsole2
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			string entry = Console.ReadLine();
+			Console.WriteLine("------------------------------");
+			Console.WriteLine(entry.PadLeft(30));
+			Console.WriteLine(entry.Replace('h', '*'));
 		}
 	}
 }

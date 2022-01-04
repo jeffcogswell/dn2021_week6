@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+
+<h1>Calculator</h1>
+
+<form method="post" action="Result">
+    <input type="number" name="num1" />
+    <input type="number" name="num2" /><br />
+    <input type="radio" name="operation" value="Plus" /> +<br />
+    <input type="radio" name="operation" value="Minus" /> -<br />
+    <input type="radio" name="operation" value="Multiply" /> x<br />
+    <input type="radio" name="operation" value="Divide" /> &#247;<br />
+    <input type="submit" />
+</form>
