@@ -1,0 +1,30 @@
+﻿@model List<Breed>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Temperament</th>
+            <th>Pic</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Breed bre in Model)
+			{
+                <tr>
+                    <td>@bre.name</td>
+                    <td>@bre.temperament</td>
+                    <td><img src="@bre.image.url" style="width:100px" /></td>
+                </tr>
+			}
+    </tbody>
+</table>

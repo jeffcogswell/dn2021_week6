@@ -9,7 +9,7 @@ namespace TheDogDemo.Models
 
 	public class SpeciesImage
 	{
-		public int id { get; set; }
+		public string id { get; set; }
 		public string url { get; set; }
 	}
 
@@ -36,7 +36,7 @@ namespace TheDogDemo.Models
 				if (_http == null)
 				{
 					_http = new HttpClient();
-					_http.BaseAddress = new Uri("https://api.thedogapi.com/v1");
+					_http.BaseAddress = new Uri("https://api.thedogapi.com/v1/");
 					_http.DefaultRequestHeaders.Add("x-api-key", "9a576995-4641-4b6b-9026-d14cf814ea57");
 				}
 				return _http;
@@ -47,6 +47,8 @@ namespace TheDogDemo.Models
 		{
 			var connection = await Http.GetAsync("breeds");
 			List<Species> dogs = await connection.Content.ReadAsAsync<List<Species>>();
+
+			//string json = await Http.GetStringAsync("breeds");
 			return dogs;
 		}
 	}

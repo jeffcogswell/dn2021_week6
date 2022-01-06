@@ -1,36 +1,28 @@
-﻿using ApiMvc1.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Net.Http;
 using System.Threading.Tasks;
+using TheDog.Models;
 
-namespace ApiMvc1.Controllers
+namespace TheDog.Controllers
 {
 	public class HomeController : Controller
 	{
 		private readonly ILogger<HomeController> _logger;
 
-		private static HttpClient MyHttp = new HttpClient();
-
 		public HomeController(ILogger<HomeController> logger)
 		{
-			if (MyHttp.BaseAddress == null)
-			{
-				MyHttp.BaseAddress = new Uri("https://zoo-animal-api.herokuapp.com/");
-			}
 			_logger = logger;
 		}
 
 		public async Task<IActionResult> Index()
 		{
-			var response = await MyHttp.GetAsync("animals/rand/5");
-			List<Animal> animals = await response.Content.ReadAsAsync<List<Animal>>();
-
-			return View(animals);
+			List<Breed> breeds = await DogAPI.GetBreeds(5);
+			//return Content(breeds.Count.ToString());
+			return View(breeds);
 		}
 
 		public IActionResult Privacy()
