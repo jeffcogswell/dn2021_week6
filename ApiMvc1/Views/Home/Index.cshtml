@@ -1,0 +1,29 @@
+﻿@model List<Animal>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Habitat</th>
+            <th>Image Link</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (Animal ani in Model)
+        {
+            <tr>
+                <td>@ani.name</td>
+                <td>@ani.animal_type</td>
+                <td>@ani.habitat</td>
+                <td><a href="@ani.image_link">Image</a></td>
+                <td><img src="@ani.image_link" style="width:200px" /></td>
+            </tr>
+        }
+    </tbody>
+</table>

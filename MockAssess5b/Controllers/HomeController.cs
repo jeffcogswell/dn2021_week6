@@ -36,7 +36,15 @@ namespace MockAssess5b.Controllers
 
 		public IActionResult Privacy()
 		{
-			return RedirectToAction("GetAge");
+			string temp = Person.DoSomething();
+			ViewBag.words = temp;
+			return View();
+		}
+
+		public IActionResult test()
+		{
+			Response.ContentType = "text/html";
+			return Content("<b>Hello world!</b>");
 		}
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

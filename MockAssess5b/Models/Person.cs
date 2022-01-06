@@ -22,5 +22,10 @@ namespace MockAssess5b.Models
 				return Age >= 16;
 			}
 		}
+		public static string DoSomething()
+		{
+			return "<b>I'm creating some HTML</b>";
+		}
 	}
+
 }
