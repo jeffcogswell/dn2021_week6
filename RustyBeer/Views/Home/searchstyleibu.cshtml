@@ -1,0 +1,11 @@
+﻿@model List<StylesResponse>
+@{
+    ViewData["Title"] = "searchstyleibu";
+}
+
+<h1>searchstyleibu</h1>
+
+@foreach (StylesResponse style in Model)
+{
+	<div>@style.name</div>
+}

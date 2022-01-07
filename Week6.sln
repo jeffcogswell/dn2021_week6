@@ -3,38 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillerConsole2", "FillerConsole2\FillerConsole2.csproj", "{F6388754-D720-4354-ACC5-ED1B1162BDDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FillerConsole2", "FillerConsole2\FillerConsole2.csproj", "{F6388754-D720-4354-ACC5-ED1B1162BDDE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{885FEF9E-349A-472C-B521-9768C191A4FF}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{0F18A31A-E7AE-4456-A8D8-C4F8A73BE8CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{0F18A31A-E7AE-4456-A8D8-C4F8A73BE8CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo1", "MVCDemo1\MVCDemo1.csproj", "{F09ED57A-B498-4306-8B56-36271C12F44E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDemo1", "MVCDemo1\MVCDemo1.csproj", "{F09ED57A-B498-4306-8B56-36271C12F44E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo2", "MVCDemo2\MVCDemo2.csproj", "{E39C2D62-2351-4168-BA65-436940B4ECD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDemo2", "MVCDemo2\MVCDemo2.csproj", "{E39C2D62-2351-4168-BA65-436940B4ECD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockAssess5a", "MockAssess5a\MockAssess5a.csproj", "{3773E5CD-4BCA-4614-B85F-75CF872025C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockAssess5a", "MockAssess5a\MockAssess5a.csproj", "{3773E5CD-4BCA-4614-B85F-75CF872025C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional", "Conditional\Conditional.csproj", "{AA5A370F-E5C8-4FBB-9A21-7A679685565C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditional", "Conditional\Conditional.csproj", "{AA5A370F-E5C8-4FBB-9A21-7A679685565C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockAssess5b", "MockAssess5b\MockAssess5b.csproj", "{529D8286-55AE-4ED1-B3BC-FFEE361C8211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockAssess5b", "MockAssess5b\MockAssess5b.csproj", "{529D8286-55AE-4ED1-B3BC-FFEE361C8211}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIConsole", "APIConsole\APIConsole.csproj", "{21FD3BDE-4829-488A-B8C6-5DA7C8E458A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIConsole", "APIConsole\APIConsole.csproj", "{21FD3BDE-4829-488A-B8C6-5DA7C8E458A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIConsole2", "APIConsole2\APIConsole2.csproj", "{E4FA137E-C005-435D-9ACB-CCFAE5726E3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIConsole2", "APIConsole2\APIConsole2.csproj", "{E4FA137E-C005-435D-9ACB-CCFAE5726E3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiMvc1", "ApiMvc1\ApiMvc1.csproj", "{A33AC4EE-2611-459C-A86B-C92F102CD048}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiMvc1", "ApiMvc1\ApiMvc1.csproj", "{A33AC4EE-2611-459C-A86B-C92F102CD048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards", "DeckOfCards\DeckOfCards.csproj", "{CE0E9A1F-5127-46CD-A18B-5A20098293C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeckOfCards", "DeckOfCards\DeckOfCards.csproj", "{CE0E9A1F-5127-46CD-A18B-5A20098293C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempProject", "TempProject\TempProject.csproj", "{80CFE858-9161-40EB-AD7A-449CD1206581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempProject", "TempProject\TempProject.csproj", "{80CFE858-9161-40EB-AD7A-449CD1206581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDogDemo", "TheDogDemo\TheDogDemo.csproj", "{E7F1A43A-B872-48EE-91CD-32C20F58AF5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheDogDemo", "TheDogDemo\TheDogDemo.csproj", "{E7F1A43A-B872-48EE-91CD-32C20F58AF5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDog", "TheDog\TheDog.csproj", "{C3B43405-4EE8-4DBE-8858-7B51BE9EB674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheDog", "TheDog\TheDog.csproj", "{C3B43405-4EE8-4DBE-8858-7B51BE9EB674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonConsole", "SingletonConsole\SingletonConsole.csproj", "{6DD7CF93-39F1-4B7F-8B47-47F28CC016C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonConsole2", "SingletonConsole2\SingletonConsole2.csproj", "{3D5197BC-3DB4-45EE-BE0E-1FD294C7EA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonConsole3", "SingletonConsole3\SingletonConsole3.csproj", "{FE03FD19-15C1-4FB9-B23B-CB03328594A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonBroken", "SingletonBroken\SingletonBroken.csproj", "{0476E6A5-3E2F-4253-91E7-A7F9798B5528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RustyBeer", "RustyBeer\RustyBeer.csproj", "{84E55AB1-1C25-492E-9423-106D700E5C49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +108,26 @@ Global
 		{C3B43405-4EE8-4DBE-8858-7B51BE9EB674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3B43405-4EE8-4DBE-8858-7B51BE9EB674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3B43405-4EE8-4DBE-8858-7B51BE9EB674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD7CF93-39F1-4B7F-8B47-47F28CC016C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD7CF93-39F1-4B7F-8B47-47F28CC016C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD7CF93-39F1-4B7F-8B47-47F28CC016C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD7CF93-39F1-4B7F-8B47-47F28CC016C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5197BC-3DB4-45EE-BE0E-1FD294C7EA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5197BC-3DB4-45EE-BE0E-1FD294C7EA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5197BC-3DB4-45EE-BE0E-1FD294C7EA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5197BC-3DB4-45EE-BE0E-1FD294C7EA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE03FD19-15C1-4FB9-B23B-CB03328594A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE03FD19-15C1-4FB9-B23B-CB03328594A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE03FD19-15C1-4FB9-B23B-CB03328594A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE03FD19-15C1-4FB9-B23B-CB03328594A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0476E6A5-3E2F-4253-91E7-A7F9798B5528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0476E6A5-3E2F-4253-91E7-A7F9798B5528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0476E6A5-3E2F-4253-91E7-A7F9798B5528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0476E6A5-3E2F-4253-91E7-A7F9798B5528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E55AB1-1C25-492E-9423-106D700E5C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E55AB1-1C25-492E-9423-106D700E5C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E55AB1-1C25-492E-9423-106D700E5C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E55AB1-1C25-492E-9423-106D700E5C49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
